@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-image: url(/img/header.jpg);
+}
 nav{
   padding-top: 50px;
-  background-color: #000;
+  
 }
 .navbar-login{
   position: relative;
@@ -19,15 +22,19 @@ nav{
 }.main-sec-text{
   text-align: center;
   font-weight: bold;
-  color: green;
+  color: 	#32CD32;
   margin-top: 30px;
-}.main-sec-img{
+}
+.main-sec-text2{
+  color: #fff;
+}
+.main-sec-img{
   text-align: center;
   width: 100%;
   height: 500px;
 }
 .btn-parent{
-  background-color: #fff;
+  
 }
 .btn{
   font-weight: bold;
@@ -47,22 +54,42 @@ nav{
 }
 /*The Start of the second section of the webpage*/
 .second-section{
+  background-color: rgba(0, 0, 0, 0.363);
+  opacity: 100%;
+  padding: 10px 10px 10px 10px;
+  margin-top: 15%;
   
 }
+.second-section2{
+  display:flex;
+  justify-content: space-evenly;
+}
 .snd-sec-text{
-color: green;
+color: #32CD32;
 font-size: 50px;
+}
+.snd-sec-text2{
+  color: #fff;
+  font-size: 20px;
 }
 
 .snd-sec-span{
-color: green;
+color: #32CD32;
+font-size: 15px;
+text-align: center;
+font-weight: bold;
 }
 .snd-sec-btn{
-padding: 10px 10px 10px 10px;
-background-color: none;
-border-color: #ffff;
+padding: 5px 30px 5px 30px;
+background-color: transparent;
+color: #fff;
+border-color: #fff;
 border-radius: 5px;
 font-weight: bold;
 
-
 }
+
+/*The of the second section of the webpage*/
+
+
+/*This is the start of the third section of the webpage*/
